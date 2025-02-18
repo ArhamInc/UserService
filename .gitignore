@@ -1,0 +1,40 @@
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+.suo
+.user
+*.csproj.user
+.userosscache
+*.vs/
+
+# Ignore NuGet files
+[Nn]u[Gg]et.[Ll]ocal
+.nuget/
+packages/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore local development files
+appsettings.Development.json
+
+# Ignore logs and diagnostics
+logs/
+*.log
+*.csv
+*.pid
+
+# Ignore Azure Functions
+local.settings.json
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore macOS files
+.DS_Store
