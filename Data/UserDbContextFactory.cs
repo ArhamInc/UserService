@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace UserService.Data
+namespace UsersApp.Data
 {
 	public class UserDbContextFactory : IDesignTimeDbContextFactory<UserDbContext>
 	{
